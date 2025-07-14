@@ -32,7 +32,7 @@ This project implements a smart parking management system using Arduino Nano, ul
 
 ## 🔁 Wokwi Simulation
 
-▶ [Click to open in Wokwi](https://wokwi.com/projects/YOUR_LINK_HERE)
+▶ [Click to open in Wokwi](https://wokwi.com/projects/436489026141855745)
 
 ## 📷 LCD Display Layout
 
