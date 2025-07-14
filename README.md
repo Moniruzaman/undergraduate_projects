@@ -5,7 +5,7 @@ Here i am sharing my undergraduate projects
 
 Mobile control Bot [December 2016]
 
-Automated Parking Lot [February 2017]
+Automated Parking Lot Monitoring and Access Control System [February 2017]
 
 Can shape robot [April 2017]
 
