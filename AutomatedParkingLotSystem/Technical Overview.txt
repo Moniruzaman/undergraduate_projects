@@ -1,0 +1,76 @@
+### **Project Title: Automated Parking Lot Monitoring and Access Control System**
+
+**Overview:**
+The Automated Parking Lot Monitoring and Access Control System is a smart embedded solution designed to manage vehicle parking efficiently in a residential or commercial building. The system features four dedicated parking slots, each monitored by ultrasonic sensors (HC-SR04) to detect vehicle presence. A real-time display system shows slot availability, and an automated gate mechanism allows vehicle entry only when a slot is available.
+
+**Objective:**
+To develop a low-cost, real-time, automated parking management system using embedded technologies that improves vehicle flow and eliminates manual supervision.
+
+---
+
+### **System Architecture:**
+
+The system integrates multiple hardware modules to carry out sensing, processing, display, and actuation tasks:
+
+* **Input Units:**
+
+  * 4 × HC-SR04 Ultrasonic Sensors: Mounted above each parking slot to measure distance and detect vehicle presence.
+
+* **Processing Unit:**
+
+  * Arduino  Nano Collects sensor data, processes occupancy status, and controls gate actuation.
+
+* **Output Units:**
+
+  * 16x2 LCD or OLED Display: Shows parking slot availability in real time.
+  * Servo Motor SG90: Opens and closes the entrance gate based on slot availability.
+
+* **Power Supply:**
+
+  * 9V DC Adapter: Powers the microcontroller and peripheral devices.
+
+---
+
+### **Features:**
+
+* Real-time detection of parking slot occupancy using non-contact sonar sensors.
+* Dynamic LCD display showing the availability status (e.g., Slot 1: Available / Occupied).
+* Automatic gate opening only when one or more slots are free.
+* "Parking Full" indication when all slots are occupied.
+* Scalable design architecture for adding more slots as needed.
+* Compact and cost-effective solution for small facilities.
+
+---
+
+### **Working Principle:**
+
+1. The ultrasonic sensors send out continuous pulses to detect the distance of any object (vehicle) present above each parking slot.
+2. If the measured distance is below a predefined threshold, the slot is marked as occupied.
+3. The Arduino processes all sensor data and updates the display accordingly.
+4. If any slot is available, the system sends a control signal to the gate motor to open the gate, allowing vehicle entry.
+5. If all slots are full, the gate remains closed and a "Parking Full" message is displayed.
+
+---
+
+### **Use Cases / Applications:**
+
+* Residential apartment complexes with limited parking capacity
+* Office buildings requiring automated parking entry systems
+* Educational institutions as a teaching model for embedded systems and automation
+* Prototyping platform for smart city parking solutions
+
+---
+
+### **Future Improvements:**
+
+* Integration with mobile apps for remote monitoring and booking of parking slots
+* Use of RFID or ANPR (Automatic Number Plate Recognition) for secure access
+* Cloud-based data logging for usage statistics and analytics
+* Wireless connectivity (Wi-Fi or LoRa) to integrate with smart city infrastructure
+
+---
+
+**Conclusion:**
+This project showcases a practical implementation of embedded systems in solving real-world problems. With a compact and modular design, the Automated Parking Lot Monitoring and Access Control System offers an effective solution for managing parking space efficiently and securely.
+
+---

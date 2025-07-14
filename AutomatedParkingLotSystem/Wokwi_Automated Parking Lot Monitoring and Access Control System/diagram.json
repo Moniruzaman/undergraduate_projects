@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "author": "Maverick",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": -100.8, "left": 95.5, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -161.7,
+      "left": -128.9,
+      "attrs": { "distance": "380" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 103.6, "left": -76.8, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic2", "top": -46.5, "left": -128.9, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic3",
+      "top": -161.7,
+      "left": 303.1,
+      "attrs": { "distance": "208" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic4",
+      "top": -65.7,
+      "left": 303.1,
+      "attrs": { "distance": "278" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 119.2, "left": 107.82, "attrs": {} },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcd2",
+      "top": 92.8,
+      "left": 226.4,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "nano:GND.1", "ultrasonic3:GND", "black", [ "v19.2", "h163.2" ] ],
+    [ "ultrasonic3:GND", "ultrasonic4:GND", "black", [ "v0" ] ],
+    [ "servo1:GND", "ultrasonic2:GND", "black", [ "h-9.6", "v-57.6", "h67.2" ] ],
+    [ "ultrasonic1:GND", "ultrasonic2:GND", "black", [ "v0" ] ],
+    [ "ultrasonic2:GND", "nano:GND.1", "black", [ "v0", "h258" ] ],
+    [ "ultrasonic1:VCC", "ultrasonic2:VCC", "red", [ "v0" ] ],
+    [ "ultrasonic2:VCC", "servo1:V+", "red", [ "v28.8", "h-57.6", "v76.8" ] ],
+    [ "ultrasonic1:VCC", "ultrasonic3:VCC", "red", [ "v-86.4", "h422.4", "v76.8" ] ],
+    [ "ultrasonic3:VCC", "ultrasonic4:VCC", "red", [ "v0" ] ],
+    [ "nano:5V", "ultrasonic4:VCC", "red", [ "v0" ] ],
+    [ "ultrasonic4:TRIG", "nano:3", "orange", [ "v9.6", "h-86.8", "v-172.8", "h-76.8" ] ],
+    [ "ultrasonic4:ECHO", "nano:2", "green", [ "v19.2", "h-106.4", "v-172.8", "h-76.8" ] ],
+    [ "ultrasonic3:TRIG", "nano:4", "orange", [ "v-67.2", "h-192.4" ] ],
+    [ "ultrasonic3:ECHO", "nano:5", "green", [ "v-76.8", "h-212", "v9.6" ] ],
+    [ "ultrasonic1:ECHO", "nano:7", "green", [ "v-67.2", "h181.6" ] ],
+    [ "ultrasonic1:TRIG", "nano:6", "orange", [ "v-76.8", "h201.2" ] ],
+    [ "ultrasonic2:ECHO", "nano:9", "green", [ "v-96", "h85.6", "v-57.6", "h28.8" ] ],
+    [
+      "ultrasonic2:TRIG",
+      "nano:8",
+      "orange",
+      [ "v-96", "h-0.4", "v-9.6", "h86.4", "v-57.6", "h105.6" ]
+    ],
+    [ "nano:10", "servo1:PWM", "#8f4814", [ "v9.6", "h-57.6", "v288", "h-182.4", "v-19.2" ] ],
+    [ "nano:11", "pir1:OUT", "green", [ "v28.8", "h-38.4", "v230.4", "h0", "v57.6", "h67.2" ] ],
+    [ "ultrasonic4:GND", "lcd2:GND", "black", [ "v57.6", "h-183.6", "v38.4" ] ],
+    [ "lcd2:VCC", "pir1:VCC", "red", [ "h-86.4", "v0.1" ] ],
+    [ "lcd2:VCC", "nano:5V", "red", [ "h-9.6", "v0.1", "h-9.6", "v-96", "h9.6" ] ],
+    [ "pir1:GND", "lcd2:GND", "black", [ "v-86.4", "h-0.26" ] ],
+    [ "lcd2:SDA", "nano:A4", "green", [ "h-38.4", "v0.2", "h-9.6" ] ],
+    [ "lcd2:SCL", "nano:A5", "green", [ "h-38.4", "v0.3" ] ]
+  ],
+  "dependencies": {}
+}
