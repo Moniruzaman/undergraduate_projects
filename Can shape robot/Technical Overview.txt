@@ -1,0 +1,76 @@
+**Project Title:** Can-Shaped Autonomous Obstacle Avoidance Robot
+
+**Development Timeline:** April 2017
+
+**1. Introduction:**
+The Can-Shaped Robot was designed as a compact, mobile autonomous system capable of navigating through an environment by detecting and avoiding obstacles. The project focused on integrating essential robotic subsystems into a minimal, cylindrical form factor, resembling the shape of a beverage can, hence the name.
+
+**2. System Components:**
+
+* **Microcontroller:** Arduino Nano
+
+  * Acts as the main controller to manage sensor input and motor output.
+  * Chosen for its compact size and sufficient I/O pins.
+
+* **Motor Driver:** L293D Dual H-Bridge
+
+  * Controls two DC motors for differential drive system.
+  * Supports bidirectional motor operation.
+
+* **Bluetooth Module:** HC-05
+
+  * Used for wireless debugging and optional manual control.
+  * Communicates over UART with the Arduino Nano.
+  * Enabled smartphone-based control of the robot using a mobile app.
+  * Integrated with the "Arduino Bluetooth Controller" app (available on the Google Play Store) for manual directional control through a user-friendly interface.
+
+* **Obstacle Detection Sensor:** HC-SR04 Ultrasonic Sensor
+
+  * Provides real-time distance measurement.
+  * Enables autonomous decision-making based on proximity threshold.
+
+* **Power Supply:** 7.4V Li-Po Battery
+
+  * Delivers high current required for motors and stable power to the control circuitry.
+  * Lightweight and rechargeable.
+
+* **Chassis:** Custom Can-Shaped Body
+
+  * Fabricated using lightweight materials such as acrylic or plastic.
+  * Cylindrical design enhances aesthetics and maneuverability in tight spaces.
+
+**3. Functional Overview:**
+The robot continuously polls the ultrasonic sensor to measure the distance in front of it. If an obstacle is detected within a critical range (e.g., <20 cm), the Arduino processes this data and sends commands to the motor driver to either stop, reverse, or turn the robot in a different direction. The HC-05 module enables manual override or serial data monitoring during testing, and also allows remote mobile control via a smartphone app using Bluetooth commands. The "Arduino Bluetooth Controller" app was used to provide easy and real-time directional control of the robot.
+
+**4. Circuit Design:**
+
+* The ultrasonic sensor is connected to Arduino digital pins (e.g., Trig to D9, Echo to D10).
+* HC-05 is connected via TX/RX lines (D0/D1) through voltage divider for RX pin.
+* L293D IN1/IN2 and IN3/IN4 control left and right motor directions respectively.
+* ENA and ENB pins are connected to PWM-capable Arduino pins for speed control.
+* Motors are powered directly from Li-Po with GND common to Arduino.
+
+**5. Mechanical Assembly:**
+
+* Base constructed to accommodate two wheels and a caster wheel.
+* Central housing holds the Arduino, motor driver, and Li-Po battery.
+* Ultrasonic sensor mounted at the front with an adjustable bracket.
+
+**6. Software Implementation:**
+
+* Arduino code utilizes `digitalWrite()` and `analogWrite()` for motor control.
+* `pulseIn()` is used to calculate distance from the ultrasonic sensor.
+* Simple `if-else` logic governs obstacle avoidance.
+* Bluetooth commands from a smartphone app are read via Serial to control robot movement (forward, backward, left, right, stop).
+* The robot responds to specific character inputs sent by the Arduino Bluetooth Controller app, making mobile control intuitive.
+
+**7. Challenges and Solutions:**
+
+* **Power management:** Ensured stable operation by adding capacitors and a voltage regulator.
+* **Limited space:** Compact stacking of modules and wire management techniques.
+* **Sensor accuracy:** Added debounce logic and averaging filter for consistent readings.
+
+**8. Conclusion:**
+The Can-Shaped Robot successfully demonstrated key robotic principles including real-time sensor-based navigation, efficient power usage, compact mechanical design, and mobile-based manual control. The integration of the Arduino Bluetooth Controller app enabled interactive user control, making the system both educational and practical. The project laid the foundation for future exploration in mobile robotics, sensor fusion, and intelligent control systems.
+
+**Keywords:** Arduino Nano, HC-05, L293D, Ultrasonic Sensor, Obstacle Avoidance, Li-Po Battery, Embedded Systems, Mobile Robotics, Bluetooth Control, Arduino Bluetooth Controller
