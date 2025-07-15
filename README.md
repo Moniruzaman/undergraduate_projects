@@ -7,7 +7,7 @@ Mobile control Bot 🚗 [December 2016]
 
 Automated Parking Lot Monitoring and Access Control System 🚗 [February 2017]
 
-Can shape robot [April 2017]
+Can shape robot 🚗 [April 2017]
 
 RFID Offline Attendance Device [July 2017]
 
