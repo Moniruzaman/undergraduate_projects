@@ -1,0 +1,71 @@
+🚗 Project Title: Mobile Control Bot
+
+Category: Embedded Systems | RoboticsPlatform: Arduino
+
+🛠️ Overview
+
+This was my first embedded systems project, which introduced me to microcontroller-based hardware interfacing and Bluetooth communication. The bot was manually controlled via a smartphone app, establishing a simple yet functional mobile robot system.
+
+🔧 Components Used
+
+Component
+
+Description
+
+Arduino Uno
+
+Main microcontroller for control logic
+
+HC-05 Bluetooth Module
+
+Wireless communication with Android phone
+
+L293D Motor Driver
+
+Controls the bidirectional movement of motors
+
+DC Geared Motors (x2)
+
+Used for left and right wheel movement
+
+AA Battery Pack
+
+Powers the motor driver and motors
+
+9V Battery
+
+Powers the Arduino Uno
+
+Chassis & Wheels
+
+Base structure for the robot
+
+📱 Control Mechanism
+
+Communication: HC-05 Bluetooth module
+
+Controller App: Arduino Bluetooth Controller (from Play Store)
+
+Commands: Forward, Backward, Left, Right, Stop
+
+🔄 Working Principle
+
+The Bluetooth module receives directional commands from the smartphone.
+
+Arduino Uno reads incoming serial data and determines motion logic.
+
+Based on the command, Arduino controls the L293D motor driver to drive the motors in the desired direction.
+
+🔌 Power Supply Details
+
+Arduino powered by a 9V battery
+
+Motor driver powered by AA battery pack (4x1.5V = 6V)
+
+📱 Bluetooth Command Map
+Command	Action
+F	Forward
+B	Backward
+L	Left
+R	Right
+S	Stop
