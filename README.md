@@ -3,19 +3,19 @@ Here i am sharing my undergraduate projects
 
 **Projects name**
 
-Mobile control Bot 🚗 [December 2016]
+✔ Mobile control Bot 🚗 [December 2016]
 
-Automated Parking Lot Monitoring and Access Control System 🚗 [February 2017]
+✔ Automated Parking Lot Monitoring and Access Control System 🚗 [February 2017]
 
-Can shape robot 🚗 [April 2017]
+✔ Can shape robot 🚗 [April 2017]
 
-RFID Offline Attendance Device [July 2017]
+✔ RFID Offline Attendance Device [July 2017]
 
 RFID Online Attendance Device [July 2017]
 
 Color Detection & Sorting Machine [September 2017]
 
-Environment Data Logger in google spreadsheet [December 2017]
+✔ Environment Data Logger with Google Spreadsheet and LCD [December 2017]
 
 Fingerprint Door Lock [February 2018]
 
