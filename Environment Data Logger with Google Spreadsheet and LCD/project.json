@@ -1,0 +1,8 @@
+
+{
+  "dependencies": {
+    "adafruit/DHT sensor library": "^1.4.4",
+    "arduino-libraries/ArduinoJson": "^6.21.2",
+    "johnrickman/LiquidCrystal_I2C": "^1.1.2"
+  }
+}
