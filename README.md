@@ -13,7 +13,7 @@ Here i am sharing my undergraduate projects
 
 RFID Online Attendance Device [July 2017]
 
-Color Detection & Sorting Machine [September 2017]
+✔Color Detection & Sorting Machine [September 2017]
 
 ✔ Environment Data Logger with Google Spreadsheet and LCD [December 2017]
 
