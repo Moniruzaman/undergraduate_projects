@@ -4,31 +4,57 @@ A collection of 25+ embedded systems and electronics projects completed during m
 **Projects name**
 
 Mobile-Controlled Robotic Bot for Versatile Operations [December 2016]
+
 Automated Parking Lot System for Optimized Space Utilization [February 2017]
+
 Can-Shaped Robot for Navigational Tasks [April 2017]
+
 Offline RFID Attendance Device for Access Control [July 2017]
+
 Online RFID Attendance Device with Real-Time Connectivity [July 2017]
+
 Color Detection and Sorting Machine for Industrial Applications [September 2017]
+
 Environmental Data Logger Integrated with Google Spreadsheets [December 2017]
+
 Fingerprint Door Lock for Enhanced Security [February 2018]
+
 RFID Door Lock for Contactless Entry [April 2018]
+
 Keypad Door Lock for Secure Access [May 2018]
+
 Fire-Fighting Robotic Bot for Emergency Response [July 2018]
+
 Food Adulteration Detection System for Quality Assurance [September 2018]
+
 Waste Recycling Bot for Environmental Sustainability [December 2018]
+
 Automated Railway Platform Helper Bot [February 2019]
+
 Bench Variable Power Supply for Lab Applications [March 2019]
+
 Smart Home Energy Management Controller [May 2019]
+
 IoT-Based Smart Health Monitoring Band [June 2019]
+
 Hyperhidrosis Treatment System with Advanced Controls [July 2019]
+
 Smart Pedometer for Fitness Tracking [July 2019]
+
 Gesture-Controlled Robot via Bluetooth [August 2019]
+
 Smart Irrigation System with Automated Water Management [August 2019]
+
 Automated Hybrid Bridge for Efficient Connectivity [September 2019]
+
 Line Following Robot for Path Tracking [October 2019]
+
 Solar Panel Analyzer for Performance Monitoring [October 2019]
+
 IoT-Based Solar Panel Temperature Controller [November 2019]
+
 Robotic Arm for Pick and Place Operations [December 2019]
+
 Design and Implementation of Smart Home Energy Management Systems Based on IoT [2020]
 Drill and Cutting Automation Using 6-DOF Robotic Arm [January 2020]
 Smart Metering for Smart Grid Integration (Thesis Project) [2020]
