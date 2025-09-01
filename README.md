@@ -1,63 +1,34 @@
 # undergraduate_projects
-Here i am sharing my undergraduate projects
+A collection of 25+ embedded systems and electronics projects completed during my studies at KUET. The projects cover circuit design, PCB development, embedded programming, IoT integration, and energy systems applications.
 
 **Projects name**
 
-✔ Mobile control Bot 🚗 [December 2016]
-
-✔ Automated Parking Lot Monitoring and Access Control System 🚗 [February 2017]
-
-✔ Can shape robot 🚗 [April 2017]
-
-✔ RFID Offline Attendance Device [July 2017]
-
-✔ RFID-Based Online Attendance System Using ESP32 and Google Sheets [July 2017]
-
-✔Color Detection & Sorting Machine [September 2017]
-
-✔ Environment Data Logger with Google Spreadsheet and LCD [December 2017]
-
-Fingerprint Door Lock [February 2018]
-
-RFID Door Lock [April 2018]
-
-Keypad Door lock [May 2018]
-
-Fire Fight Bot [July 2018]
-
-Food Adulteration Detector [September 2018]
-
-Waste Recycling Bot [December 2018]
-
-Automated Railway Platform Helping Bot [February 2019]
-
-Bench Variable Power Supply [March 2019]
-
-Smart Controller for Home energy management [May 2019]
-
-IoT based smart health band [June 2019]
-
-Hyperhidrosis treatment system [July 2019]
-
-Smart pedometer [July 2019]
-
-Gesture control robot using Bluetooth [August 2019]
-
-Smart irrigation system [August 2019]
-
-Automated hybrid bridge [September 2019]
-
-Line follower robot [October 2019]
-
-Solar panel analyzer [October 2019]
-
-Solar panel temperature controller IoT based [November 2019]
-
-Pick and place robot using a robotic hand [December 2019]
-
-Design and Implementation of Smart Home Energy Management systems
-based on IoT
-
-Drill and cutting using 6 DOF robotic arm [January 2020]
-
-Smart metering for smart grid (Thesis)
+Mobile-Controlled Robotic Bot for Versatile Operations [December 2016]
+Automated Parking Lot System for Optimized Space Utilization [February 2017]
+Can-Shaped Robot for Navigational Tasks [April 2017]
+Offline RFID Attendance Device for Access Control [July 2017]
+Online RFID Attendance Device with Real-Time Connectivity [July 2017]
+Color Detection and Sorting Machine for Industrial Applications [September 2017]
+Environmental Data Logger Integrated with Google Spreadsheets [December 2017]
+Fingerprint Door Lock for Enhanced Security [February 2018]
+RFID Door Lock for Contactless Entry [April 2018]
+Keypad Door Lock for Secure Access [May 2018]
+Fire-Fighting Robotic Bot for Emergency Response [July 2018]
+Food Adulteration Detection System for Quality Assurance [September 2018]
+Waste Recycling Bot for Environmental Sustainability [December 2018]
+Automated Railway Platform Helper Bot [February 2019]
+Bench Variable Power Supply for Lab Applications [March 2019]
+Smart Home Energy Management Controller [May 2019]
+IoT-Based Smart Health Monitoring Band [June 2019]
+Hyperhidrosis Treatment System with Advanced Controls [July 2019]
+Smart Pedometer for Fitness Tracking [July 2019]
+Gesture-Controlled Robot via Bluetooth [August 2019]
+Smart Irrigation System with Automated Water Management [August 2019]
+Automated Hybrid Bridge for Efficient Connectivity [September 2019]
+Line Following Robot for Path Tracking [October 2019]
+Solar Panel Analyzer for Performance Monitoring [October 2019]
+IoT-Based Solar Panel Temperature Controller [November 2019]
+Robotic Arm for Pick and Place Operations [December 2019]
+Design and Implementation of Smart Home Energy Management Systems Based on IoT [2020]
+Drill and Cutting Automation Using 6-DOF Robotic Arm [January 2020]
+Smart Metering for Smart Grid Integration (Thesis Project) [2020]
